@@ -67,7 +67,7 @@ def create_notebook():
                 "outputs": [],
                 "source": [
                     "# Load the dataset\n",
-                    "data_path = \"../openweather_weather_airpollution_top3cities_per_country.csv\"\n",
+                    "data_path = \"../cleaned_data.csv\"\n",
                     "df = pd.read_csv(data_path)\n",
                     "\n",
                     "# Define independent features and the target variable\n",
