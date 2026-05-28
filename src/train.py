@@ -17,7 +17,7 @@ def main():
     os.makedirs("plots", exist_ok=True)
     
     # 1. Load Dataset
-    data_path = "openweather_weather_airpollution_top3cities_per_country.csv"
+    data_path = "cleaned_data.csv"
     print(f"Loading dataset from {data_path}...")
     df = pd.read_csv(data_path)
     
